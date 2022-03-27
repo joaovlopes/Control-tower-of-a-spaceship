@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Nave espacial!</title>
+</head>
+<body>
+    <div class="quadrado">
+        <h1>Bem Vindo!</h1>
+    <p>Para começar vamos precisar do nome da sua nave!</p>
+    <p>Digite o nome da sua nave: <Input type="text" placeholder="Digite o nome da sua nave" id="nome"></p>
+    <h1>O que deseja fazer, piloto?</h1>
+    <div class="div1">
+        
+
+        <input type="radio" id="acelerar" name="radio" value="1">
+        <label for="acelerar">Acelerar a nave em 5km/s</label>
+
+        <input type="radio" id="desacelerar" name="radio" value="2">
+        <label for="desacelerar">Desacelerar a nave em 5km/s</label>
+
+        <input type="radio" id="dados" name="radio" value="3">
+        <label for="dados">Imprimir dados de bordo</label>
+
+        <input type="radio" id="limpar" name="radio" value="4">
+        <label for="limpar">Limpar</label>
+    </div>
+
+    <button type="button" onclick="menu()">Enviar</button>
+    <h1 id="result"></h1>
+    </div>
+
+</body>
+</html>

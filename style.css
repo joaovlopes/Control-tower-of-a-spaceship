@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-image: url("assets/galaxia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+    color: white;
+    padding-top: 5rem;
+}
+h1, p {
+    padding: 1rem;
+    font-size: 1rem;
+    
+}
+span {
+    text-align: center;
+}
+.div1 {
+    display: flex;
+    padding: 2rem;
+}
+.div1 label {
+    padding: 0 2rem 0 0.5rem;
+}
+
+#nome {
+    height: 2rem;
+}
+input {
+    margin-top: 0.5rem;
+}
+button {
+    border: solid 2px white;
+    background: none;
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.quadrado {
+    border: solid 3px pink;
+    height: 70%;
+    width: 50%;
+    margin-left: 25rem;
+}
+
+#result {
+    font-size: 2rem;
+}
